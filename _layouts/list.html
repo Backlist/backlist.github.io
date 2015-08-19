@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="list">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+
+    <ul class="categories">
+      {% for page_category in page.categories %}{% for category in site.data['categories'] %}{% if page_category == category.id %}
+        <li><a href="{{ category.id | prepend: 'categories/' | prepend: site.baseurl }}">{{ category.display_name }}</a></li>
+      {% endif %}{% endfor %}{% endfor %}
+    </ul>
+  </article>
+
+</div>

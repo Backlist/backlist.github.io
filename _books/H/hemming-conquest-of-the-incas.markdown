@@ -1,0 +1,13 @@
+---
+id: d821c5a3ef29dec4
+full_citation: 'Hemming, John. _The Conquest of the Incas_. Boston: Mariner Books, 2003.'
+casual_citation: 'John Hemming, _The Conquest of the Incas_ (2003 [1970]).'
+title: 'The Conquest of the Incas'
+authors:
+    - af01a4396099dc3f
+original_publication_year: 1970
+has_cover_image: false
+oclc: 778564023
+amzn: 0156028263
+isbn: 9780151225606
+---
