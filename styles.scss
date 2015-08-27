@@ -1,0 +1,117 @@
+@mixin serif-font-stack {
+  font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  font-size: 500;
+}
+
+@mixin sans-serif-font-stack {
+  font-family: "ff-meta-web-pro-condensed", sans-serif;
+  font-size: 400;
+}
+
+$pageColor: #eae5e2;
+$textColor: #1e2c3d;
+$accentColor: #325d65;
+$highlightColor: #ffca7e;
+
+body {
+  @include serif-font-stack;
+
+  background-color: $accentColor;
+  color: $textColor;
+  font-size: 16px;
+}
+
+// Type
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include sans-serif-font-stack;
+}
+
+.backlist {
+  @include sans-serif-font-stack;
+
+  font: {
+    style: normal;
+    weight: 700;
+  }
+  letter-spacing: .0125em;
+}
+
+// Layout
+
+.color-band {
+  margin: 0 auto;
+  width: 100%;
+
+  &.white {
+    background-color: $pageColor;
+  }
+
+  &.blue {
+    background-color: $accentColor;
+    color: $pageColor;
+
+    a {
+      color: $pageColor;
+    }
+  }
+}
+
+.main-column {
+  margin: 0 auto;
+  max-width: 960px;
+  min-width: 320px;
+  width: 80%;
+}
+
+// Sitewide
+
+.footer {
+  border: {
+    color: $highlightColor;
+    style: solid;
+    width: 6px 0 0 0;
+  }
+
+  p.follow {
+    font: {
+      size: 1.5em; // 24px
+      style: italic;
+    }
+    margin: 1em 0; // 24px
+    text-align: center;
+
+    a {
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+}
+
+// Homepage
+
+.splash {
+  max-height: 300px;
+  padding: 25% 0;
+  text-align: center;
+  width: 100%;
+
+  h1.title {
+    font-size: 6em; // 96px
+  }
+
+  p.define {
+    font: {
+      size: 2em; // 32px
+    }
+    margin: 1em 0; // 32px
+  }
+}
