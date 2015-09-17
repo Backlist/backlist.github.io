@@ -54,6 +54,15 @@ strong {
   letter-spacing: .0125em;
 }
 
+// Additional Resets
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 // Layout
 
 .color-band {
