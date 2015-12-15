@@ -1134,8 +1134,9 @@ ul.bibliography-filters {
     .post-content .citation h3 a {
       color: #131638;
       line-height: 100%;
-      margin-left: .5em;
       vertical-align: middle; }
+      .post-content .citation h3 a.icon {
+        margin-left: .25em; }
       .post-content .citation h3 a:hover {
         color: #e95d35; }
       .post-content .citation h3 a span.icon {
