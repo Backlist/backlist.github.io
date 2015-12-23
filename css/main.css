@@ -610,6 +610,23 @@ body.homepage .homepage-bucket {
   display: block;
   font-size: 24px; }
 
+.footer-message {
+  font-family: "aller", Helvetica, sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px; }
+  .footer-message p {
+    font-size: 1em; }
+    .footer-message p a {
+      background-image: linear-gradient(transparent 50%, #e95d35 50%);
+      background-position: 0 94%;
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+      line-height: 100%;
+      text-shadow: 2px 0 0 #ffffc3, 1px 0 0 #ffffc3, -1px 0 0 #ffffc3, -2px 0 0 #ffffc3;
+      line-height: 1; }
+
 .biblio-block {
   font-family: "aller", Helvetica, sans-serif;
   font-weight: 400;
