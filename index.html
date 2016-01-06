@@ -57,19 +57,19 @@
   
     
     <h2 class="featured-banner">New List</h2>
-    <div class="featured-list-wrapper" style="background-image: url(images/list-headers/onion-childhood.jpg);"><div class="featured-list">
+    <div class="featured-list-wrapper" style="background-image: url(images/list-headers/loomis-labor.jpg);"><div class="featured-list">
       <div class="details-card">
         <h3>
-          <a href="/lists/history-of-american-childhood">
-            The History of American Childhood
-            <span class="attribution">By Rebecca Onion</span>
+          <a href="/lists/us-labor-history">
+            U.S. Labor History
+            <span class="attribution">By Erik Loomis</span>
           </a>
         </h3>
         <p class="description">
-          Contemporary American attitudes about childhood are rife with paradox. We’re convinced that our children are overprotected, yet parents find it impossible to step back from the many protective measures put in place over the past century. Here are ten books that can help you figure out how we came to be so confused about childhood.
+          The rise and fall of the American working class has led us to tell ourselves stories about the past to inspire us today. But American labor activists have often mythologized the past to no good end. Many of these books seek to strip away the mythology so that we can learn from the past in order to craft a better labor movement in the present and future.
         </p>
         <p class="description">
-          <a class="read-more" href="/lists/history-of-american-childhood">Read more…</a>
+          <a class="read-more" href="/lists/us-labor-history">Read more…</a>
         </p>
       </div>
     </div></div>
@@ -129,6 +129,8 @@
         
           <li><a href="/category/medical">Medical</a></li>
         
+          <li><a href="/category/labor">Labor</a></li>
+        
           <li><a href="/category/peace-and-conflict">Peace and Conflict</a></li>
         
           <li><a href="/category/popular-culture">Popular Culture</a></li>
@@ -157,6 +159,9 @@
     $(document).on('ready', function() {
       strechColumns('.categories-row .third-col .homepage-bucket');
     });
+    $(window).on('load', function() {
+      strechColumns('.categories-row .third-col .homepage-bucket');
+    });
     $(window).on('resize', function() {
       strechColumns('.categories-row .third-col .homepage-bucket');
     });
@@ -168,6 +173,15 @@
     <div class="recent-wrapper">
       <h2 class="featured-banner">Recent Lists</h2>
       <ul class="list-of-lists">
+        
+          <li>
+  <h3><a href="/lists/history-of-american-childhood">The History of American Childhood</a></h3>
+  <p class="metadata">
+    By Rebecca Onion •
+    Published December 30, 2015
+  </p>
+</li>
+
         
           <li>
   <h3><a href="/lists/the-history-of-drugs-from-ambergris-to-zedoary">The History of Drugs from Ambergris to Zedoary</a></h3>
@@ -183,15 +197,6 @@
   <p class="metadata">
     By W. Scott Poole •
     Published December 16, 2015
-  </p>
-</li>
-
-        
-          <li>
-  <h3><a href="/lists/the-history-of-modern-china">The History of Modern China</a></h3>
-  <p class="metadata">
-    By Jeffrey Wasserstrom •
-    Published December 9, 2015
   </p>
 </li>
 
