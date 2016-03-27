@@ -317,7 +317,9 @@
 </script>
 
 
-    <script>
+    ---
+---
+<script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '1527664130886668',
@@ -329,7 +331,7 @@
       e.preventDefault();
       FB.ui({
         method: 'share',
-        href: 'http://backlist.cc',
+        href: 'http://backlist.cc/lists/the-history-of-modern-china',
       }, function(response){});
     });
     $(".twitter-share").click(function(e) {

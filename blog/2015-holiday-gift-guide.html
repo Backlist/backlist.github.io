@@ -222,7 +222,9 @@
 </script>
 
 
-    <script>
+    ---
+---
+<script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '1527664130886668',
@@ -234,7 +236,7 @@
       e.preventDefault();
       FB.ui({
         method: 'share',
-        href: 'http://backlist.cc',
+        href: 'http://backlist.cc/blog/2015-holiday-gift-guide',
       }, function(response){});
     });
     $(".twitter-share").click(function(e) {

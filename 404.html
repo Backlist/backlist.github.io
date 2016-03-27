@@ -178,7 +178,9 @@ $.getJSON('/data-includes/404-page-links.json', function(data) {
 </script>
 
 
-    <script>
+    ---
+---
+<script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '1527664130886668',
@@ -190,7 +192,7 @@ $.getJSON('/data-includes/404-page-links.json', function(data) {
       e.preventDefault();
       FB.ui({
         method: 'share',
-        href: 'http://backlist.cc',
+        href: 'http://backlist.cc/404.html',
       }, function(response){});
     });
     $(".twitter-share").click(function(e) {
