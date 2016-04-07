@@ -15,7 +15,6 @@
   <script src="/includes/scripts/lib/zepto.min.js"></script>
   -->
   <script src="/includes/scripts/lib/zepto.js"></script>
-  <script src="/includes/scripts/categories.js"></script>
 
   <script src="https://use.typekit.net/wze0hjz.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -70,9 +69,10 @@
   </header>
 
   <div class="wrapper">
-    <ul class="list-of-lists landing">
-  
-    <li>
+    <div class="inset-background">
+  <ul class="list-of-lists landing">
+    
+      <li>
   <h3><a href="/lists/the-history-of-drugs-from-ambergris-to-zedoary">The History of Drugs from Ambergris to Zedoary</a></h3>
   <p class="metadata">
     By Benjamin Breen •
@@ -80,45 +80,95 @@
   </p>
 </li>
 
+    
+  </ul>
+</div>
+
+<div class="sidebar-bucket">
+  <h3>When</h3>
+  <ul class="categories">
+  
+    <li><a href="/category/early-modern">Early Modern</a></li>
+  
+    <li><a href="/category/16th-century">16th Century</a></li>
+  
+    <li><a href="/category/17th-century">17th Century</a></li>
+  
+    <li><a href="/category/19th-century">19th Century</a></li>
+  
+    <li><a href="/category/20th-century">20th Century</a></li>
   
 </ul>
 
-<div id="bottom-categories-disclosure" class="categories-controls">
-  <a href="#">Show more categories…</a>
 </div>
+<div class="sidebar-bucket">
+  <h3>Where</h3>
+  <ul class="categories">
+  
+    <li><a href="/category/china">China</a></li>
+  
+    <li><a href="/category/latin-america">Latin America</a></li>
+  
+    <li><a href="/category/south-asia">South Asia</a></li>
+  
+    <li><a href="/category/united-states">United States</a></li>
+  
+    <li><a href="/category/europe">Europe</a></li>
+  
+    <li><a href="/category/central-asia">Central Asia</a></li>
+  
+</ul>
 
-<div id="bottom-categories-table" class="categories-controls">
-  <div class="display-table">
-    <div class="table-tab-bar">
-      <ul class="tabs">
-        <li><a id="bottom-all-categories-tab" href="#" class="here">All</a></li><!--
-        --><li><a id="bottom-chrono-categories-tab" href="#">When</a></li><!--
-        --><li><a id="bottom-geo-categories-tab" href="#">Where</a></li><!--
-        --><li><a id="bottom-theme-categories-tab" href="#">What</a></li>
-      </ul>
-    </div>
-    <div class="table-panels">
-      <div id="bottom-all-categories-panel" class="table-panel here">
-        <ul class="categories"><!----><li><a href="/category/16th-century">16th Century</a></li><!----><li><a href="/category/17th-century">17th Century</a></li><!----><li><a href="/category/19th-century">19th Century</a></li><!----><li><a href="/category/20th-century">20th Century</a></li><!----><li><a href="/category/african-american">African American</a></li><!----><li><a href="/category/atlantic-world">Atlantic World</a></li><!----><li><a href="/category/borderlands">Borderlands</a></li><!----><li><a href="/category/capitalism">Capitalism</a></li><!----><li><a href="/category/central-asia">Central Asia</a></li><!----><li><a href="/category/china">China</a></li><!----><li><a href="/category/cultural">Cultural</a></li><!----><li><a href="/category/demography-family">Demography / Family</a></li><!----><li><a href="/category/diplomatic-international">Diplomatic / International</a></li><!----><li><a href="/category/early-modern">Early Modern</a></li><!----><li><a href="/category/empire">Empire</a></li><!----><li><a href="/category/europe">Europe</a></li><!----><li><a href="/category/film-studies">Film Studies</a></li><!----><li><a href="/category/gender">Gender</a></li><!----><li><a href="/category/labor">Labor</a></li><!----><li><a href="/category/latin-america">Latin America</a></li><!----><li><a href="/category/medical">Medical</a></li><!----><li><a href="/category/peace-and-conflict">Peace and Conflict</a></li><!----><li><a href="/category/popular-culture">Popular Culture</a></li><!----><li><a href="/category/race-and-ethnicity">Race and Ethnicity</a></li><!----><li><a href="/category/religion">Religion</a></li><!----><li><a href="/category/science-and-technology">Science and Technology</a></li><!----><li><a href="/category/slavery">Slavery</a></li><!----><li><a href="/category/social">Social</a></li><!----><li><a href="/category/south-asia">South Asia</a></li><!----><li><a href="/category/theory-and-method">Theory and Method</a></li><!----><li><a href="/category/united-states">United States</a></li><!----><li><a href="/category/world-global-transnational">World / Global / Transnational</a></li><!----></ul>
-      </div>
-      <div id="bottom-chrono-categories-panel" class="table-panel">
-        <ul class="categories"><!----><li><a href="/category/16th-century">16th Century</a></li><!----><li><a href="/category/17th-century">17th Century</a></li><!----><li><a href="/category/19th-century">19th Century</a></li><!----><li><a href="/category/20th-century">20th Century</a></li><!----><li><a href="/category/early-modern">Early Modern</a></li><!----></ul>
-      </div>
-      <div id="bottom-geo-categories-panel" class="table-panel">
-        <ul class="categories"><!----><li><a href="/category/central-asia">Central Asia</a></li><!----><li><a href="/category/china">China</a></li><!----><li><a href="/category/europe">Europe</a></li><!----><li><a href="/category/latin-america">Latin America</a></li><!----><li><a href="/category/south-asia">South Asia</a></li><!----><li><a href="/category/united-states">United States</a></li><!----></ul>
-      </div>
-      <div id="bottom-theme-categories-panel" class="table-panel">
-        <ul class="categories"><!----><li><a href="/category/african-american">African American</a></li><!----><li><a href="/category/atlantic-world">Atlantic World</a></li><!----><li><a href="/category/borderlands">Borderlands</a></li><!----><li><a href="/category/capitalism">Capitalism</a></li><!----><li><a href="/category/cultural">Cultural</a></li><!----><li><a href="/category/demography-family">Demography / Family</a></li><!----><li><a href="/category/diplomatic-international">Diplomatic / International</a></li><!----><li><a href="/category/empire">Empire</a></li><!----><li><a href="/category/film-studies">Film Studies</a></li><!----><li><a href="/category/gender">Gender</a></li><!----><li><a href="/category/labor">Labor</a></li><!----><li><a href="/category/medical">Medical</a></li><!----><li><a href="/category/peace-and-conflict">Peace and Conflict</a></li><!----><li><a href="/category/popular-culture">Popular Culture</a></li><!----><li><a href="/category/race-and-ethnicity">Race and Ethnicity</a></li><!----><li><a href="/category/religion">Religion</a></li><!----><li><a href="/category/science-and-technology">Science and Technology</a></li><!----><li><a href="/category/slavery">Slavery</a></li><!----><li><a href="/category/social">Social</a></li><!----><li><a href="/category/theory-and-method">Theory and Method</a></li><!----><li><a href="/category/world-global-transnational">World / Global / Transnational</a></li><!----></ul>
-      </div>
-    </div>
-  </div>
 </div>
+<div class="sidebar-bucket">
+  <h3>What</h3>
+  <ul class="categories">
+  
+    <li><a href="/category/world-global-transnational">World / Global / Transnational</a></li>
+  
+    <li><a href="/category/cultural">Cultural</a></li>
+  
+    <li><a href="/category/demography-family">Demography / Family</a></li>
+  
+    <li><a href="/category/diplomatic-international">Diplomatic / International</a></li>
+  
+    <li><a href="/category/empire">Empire</a></li>
+  
+    <li><a href="/category/film-studies">Film Studies</a></li>
+  
+    <li><a href="/category/gender">Gender</a></li>
+  
+    <li><a href="/category/medical">Medical</a></li>
+  
+    <li><a href="/category/labor">Labor</a></li>
+  
+    <li><a href="/category/peace-and-conflict">Peace and Conflict</a></li>
+  
+    <li><a href="/category/popular-culture">Popular Culture</a></li>
+  
+    <li><a href="/category/social">Social</a></li>
+  
+    <li><a href="/category/theory-and-method">Theory and Method</a></li>
+  
+    <li><a href="/category/science-and-technology">Science and Technology</a></li>
+  
+    <li><a href="/category/atlantic-world">Atlantic World</a></li>
+  
+    <li><a href="/category/race-and-ethnicity">Race and Ethnicity</a></li>
+  
+    <li><a href="/category/religion">Religion</a></li>
+  
+    <li><a href="/category/borderlands">Borderlands</a></li>
+  
+    <li><a href="/category/slavery">Slavery</a></li>
+  
+    <li><a href="/category/capitalism">Capitalism</a></li>
+  
+    <li><a href="/category/african-american">African American</a></li>
+  
+</ul>
 
-
-<script type="text/javascript">
-var bottomTablePanel = new CategoriesTable('bottom');
-bottomTablePanel.setup();
-</script>
+</div>
 
   </div>
 </div>

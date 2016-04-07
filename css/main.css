@@ -116,6 +116,9 @@ body {
   clear: both;
   height: 0; }
 
+.inset-background {
+  background-color: #ffffd7; }
+
 /**
  * Site header
  */
@@ -347,8 +350,6 @@ body.homepage .featured-list-wrapper {
     background: linear-gradient(to bottom, rgba(255, 255, 215, 0.4) 0%, #ffffd7 100%);
     background-position: 50% 0;
     background-size: auto 240px; }
-    body.homepage .featured-list-wrapper .featured-list .inset-background {
-      background-color: #ffffd7; }
     body.homepage .featured-list-wrapper .featured-list .details-card {
       margin: 0 30px;
       padding: 1px 0; }
@@ -515,6 +516,47 @@ body.homepage .homepage-bucket {
     line-height: 100%;
     text-shadow: 2px 0 0 #ffffc3, 1px 0 0 #ffffc3, -1px 0 0 #ffffc3, -2px 0 0 #ffffc3;
     line-height: 1; }
+
+.sidebar-bucket {
+  background: #ffffc3;
+  background: -moz-linear-gradient(top, rgba(255, 197, 92, 0.2) 0%, rgba(255, 255, 195, 0.2) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 197, 92, 0.2)), color-stop(100%, rgba(255, 255, 195, 0.2)));
+  background: -webkit-linear-gradient(top, rgba(255, 197, 92, 0.2) 0%, rgba(255, 255, 195, 0.2) 100%);
+  background: -o-linear-gradient(top, rgba(255, 197, 92, 0.2) 0%, rgba(255, 255, 195, 0.2) 100%);
+  background: -ms-linear-gradient(top, rgba(255, 197, 92, 0.2) 0%, rgba(255, 255, 195, 0.2) 100%);
+  background: linear-gradient(to bottom, rgba(255, 197, 92, 0.2) 0%, rgba(255, 255, 195, 0.2) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc55c', endColorstr='#ffffc3',GradientType=0 );
+  border-color: #ffc55c;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  margin-bottom: 30px; }
+  .sidebar-bucket h3 {
+    font-family: "aller", Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #ffc55c;
+    color: #ffffc3;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: .5em;
+    text-align: center;
+    text-transform: uppercase; }
+  .sidebar-bucket ul.categories {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    text-align: center; }
+    .sidebar-bucket ul.categories li {
+      display: inline-block;
+      margin-right: 1em; }
+      .sidebar-bucket ul.categories li a {
+        font-family: "aller", Helvetica, sans-serif;
+        font-weight: 400;
+        color: #272e6f;
+        text-decoration: none; }
+        .sidebar-bucket ul.categories li a:hover {
+          color: #e95d35; }
 
 /**
  * 404 Page
@@ -798,31 +840,28 @@ ul.list-of-posts {
   list-style-type: none;
   margin: 30px 0;
   padding: 0; }
-  ul.list-of-posts li h3 {
-    font-size: 1.25em;
-    font-weight: 700;
-    margin-bottom: 0; }
-    ul.list-of-posts li h3 a {
-      background-image: linear-gradient(transparent 50%, #e95d35 50%);
-      background-position: 0 66.66667%;
-      background-repeat: repeat-x;
-      background-size: 2px 2px;
-      line-height: 100%;
-      text-shadow: 2px 0 0 #ffffc3, 1px 0 0 #ffffc3, -1px 0 0 #ffffc3, -2px 0 0 #ffffc3;
-      line-height: 1; }
-  ul.list-of-posts li p.metadata {
-    font-family: "aller", Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-    margin: 0; }
-  ul.list-of-posts.landing li {
-    background-color: #ffffd7;
-    border-color: #ffc55c;
-    border-color: rgba(255, 197, 92, 0.4);
-    border-style: solid;
-    border-width: 1px 0 0 0;
-    margin-bottom: 15px;
-    padding: 30px 60px; }
+  ul.list-of-posts li {
+    margin-bottom: 1.5em; }
+    ul.list-of-posts li h3 {
+      font-size: 1.25em;
+      font-weight: 700;
+      margin-bottom: 0; }
+      ul.list-of-posts li h3 a {
+        background-image: linear-gradient(transparent 50%, #e95d35 50%);
+        background-position: 0 66.66667%;
+        background-repeat: repeat-x;
+        background-size: 2px 2px;
+        line-height: 100%;
+        text-shadow: 2px 0 0 #ffffc3, 1px 0 0 #ffffc3, -1px 0 0 #ffffc3, -2px 0 0 #ffffc3;
+        line-height: 1; }
+    ul.list-of-posts li p.metadata {
+      font-family: "aller", Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 1em;
+      margin: 0; }
+  ul.list-of-posts.landing {
+    margin-top: 0;
+    padding: 1em; }
 
 ul.list-of-lists {
   list-style-type: none;
@@ -847,14 +886,9 @@ ul.list-of-lists {
       font-weight: 400;
       font-size: 1em;
       margin: 0; }
-  ul.list-of-lists.landing li {
-    background-color: #ffffd7;
-    border-color: #ffc55c;
-    border-color: rgba(255, 197, 92, 0.4);
-    border-style: solid;
-    border-width: 1px 0 0 0;
-    margin-bottom: 15px;
-    padding: 30px 60px; }
+  ul.list-of-lists.landing {
+    margin-top: 0;
+    padding: 1em; }
 
 .bibliography-content {
   background-color: #ffffd7;
@@ -1056,6 +1090,8 @@ ul.bibliography-filters {
   font-size: 2.5em;
   letter-spacing: -1px;
   margin-bottom: 0; }
+  .page-title.bottom-padded {
+    margin-bottom: 30px; }
 
 .post-title {
   font-family: "aller-display", Helvetica, sans-serif;
