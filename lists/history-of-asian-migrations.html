@@ -15,6 +15,7 @@
   <script src="/includes/scripts/lib/zepto.min.js"></script>
   -->
   <script src="/includes/scripts/lib/zepto.js"></script>
+  <script src="/includes/scripts/readMoreBlocks.js"></script>
 
   <script src="https://use.typekit.net/wze0hjz.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -257,12 +258,52 @@
     </ul>
   </div>
 
+
   <div class="footer-message wrapper">
     <p>
       <b>Backlist</b> relies on affiliate revenue from the booksellers listed with the books above. If you’d like to support our efforts and expand your history bookshelf at the same time, please consider shopping through these links or simply visit our <a href="http://astore.amazon.com/backlist0e-20?_encoding=UTF8&node=19" target="_blank">Amazon store</a>.
     </p>
   </div>
 
+  <div id="read-more" class="post-content" style="display: none">
+    <h2>
+      <div class="wrapper">Read More</div>
+    </h2>
+
+    <div class="wrapper container"></div>
+  </div>
+
+  <script type="text/javascript">
+    var categories = new Array();
+    
+      categories.push('slavery');
+    
+      categories.push('pacific-rim');
+    
+      categories.push('migration-immigration-diaspora');
+    
+      categories.push('economic-business');
+    
+      categories.push('asian-american');
+    
+      categories.push('labor');
+    
+      categories.push('demography-family');
+    
+      categories.push('latin-america');
+    
+      categories.push('united-states');
+    
+      categories.push('south-asia');
+    
+      categories.push('global');
+    
+      categories.push('china');
+    
+    var permalink = '/lists/history-of-asian-migrations';
+
+    readMoreBlocks.initialize(categories, permalink, '#read-more');
+  </script>
 </div>
 
     </div>

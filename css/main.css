@@ -559,6 +559,42 @@ body.homepage .homepage-bucket {
           color: #e95d35; }
 
 /**
+Read More
+**/
+#read-more .container {
+  font-family: "aller", Helvetica, sans-serif;
+  font-weight: 400; }
+  #read-more .container div {
+    background-color: #ffffd7;
+    margin: 0 0 15px 0;
+    padding: 30px 60px; }
+  #read-more .container h3 {
+    color: #272e6f;
+    font-weight: 100;
+    margin: 0 0 .5em 0;
+    text-transform: uppercase; }
+  #read-more .container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    #read-more .container ul li {
+      line-height: 150%;
+      margin-bottom: .75em; }
+      #read-more .container ul li a {
+        font-family: "cordale", Georgia, serif;
+        font-weight: 400;
+        background-image: linear-gradient(transparent 50%, #e95d35 50%);
+        background-position: 0 66.66667%;
+        background-repeat: repeat-x;
+        background-size: 2px 2px;
+        line-height: 100%;
+        text-shadow: 2px 0 0 #ffffc3, 1px 0 0 #ffffc3, -1px 0 0 #ffffc3, -2px 0 0 #ffffc3;
+        font-size: 1.25em;
+        line-height: 1; }
+      #read-more .container ul li span.byline {
+        display: block; }
+
+/**
  * 404 Page
   */
 .error-page {
@@ -1518,7 +1554,14 @@ ul.bibliography-filters {
       margin-right: 1em;
       margin-bottom: .5em; }
   .site-footer p.credit {
-    font-size: .8em; } }
+    font-size: .8em; }
+
+  .footer-message {
+    padding-right: 15px;
+    padding-left: 15px; }
+
+  #read-more .container div {
+    padding: 15px; } }
 @media screen and (max-width: 420px) {
   .wrapper {
     width: 100%; }
