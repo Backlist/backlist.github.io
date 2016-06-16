@@ -1210,22 +1210,6 @@ ul.bibliography-filters {
       float: right;
       margin: 0 -60px 30px 30px;
       width: 33.3333%; }
-    .post-content .intro-block ul.social-actions {
-      list-style-type: none;
-      margin: 15px 0 0 0;
-      padding: 0;
-      text-align: center; }
-      .post-content .intro-block ul.social-actions li {
-        display: inline-block;
-        height: 36px;
-        line-height: 1; }
-      .post-content .intro-block ul.social-actions svg {
-        width: 36px;
-        height: 36px; }
-        .post-content .intro-block ul.social-actions svg path {
-          fill: #272e6f; }
-        .post-content .intro-block ul.social-actions svg:hover path {
-          fill: #e95d35; }
     .post-content .intro-block div.author-profile {
       font-family: "aller", Helvetica, sans-serif;
       font-weight: 400;
@@ -1240,6 +1224,61 @@ ul.bibliography-filters {
         background-size: 2px 2px;
         line-height: 100%;
         text-shadow: 2px 0 0 #ffffc3, 1px 0 0 #ffffc3, -1px 0 0 #ffffc3, -2px 0 0 #ffffc3; }
+  .post-content .social-block {
+    font-family: "aller", Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 30px auto;
+    padding: 0 60px; }
+    .post-content .social-block div.left-col {
+      display: inline-block;
+      vertical-align: top;
+      width: 33.33333%; }
+    .post-content .social-block div.right-col {
+      display: inline-block;
+      vertical-align: top;
+      width: 66.6666667%; }
+    .post-content .social-block h3 {
+      color: #272e6f;
+      font-size: 1em;
+      font-weight: 300;
+      margin: 0;
+      text-transform: uppercase; }
+    .post-content .social-block p {
+      font-size: 1em;
+      margin: 7.5px 0; }
+      .post-content .social-block p a {
+        background-image: linear-gradient(transparent 50%, #e95d35 50%);
+        background-position: 0 94%;
+        background-repeat: repeat-x;
+        background-size: 2px 2px;
+        line-height: 100%;
+        text-shadow: 2px 0 0 #ffffc3, 1px 0 0 #ffffc3, -1px 0 0 #ffffc3, -2px 0 0 #ffffc3;
+        line-height: 1; }
+    .post-content .social-block ul {
+      list-style-type: none;
+      margin: 7.5px 0;
+      padding: 0; }
+      .post-content .social-block ul li {
+        display: inline-block;
+        margin-right: 1em;
+        line-height: 1; }
+      .post-content .social-block ul a {
+        color: #e95d35; }
+        .post-content .social-block ul a:hover {
+          color: #ffc55c;
+          text-decoration: underline; }
+      .post-content .social-block ul.social-actions a:hover {
+        text-decoration: none; }
+      .post-content .social-block ul.social-actions li {
+        margin-right: 0;
+        height: 36px; }
+      .post-content .social-block ul.social-actions svg {
+        width: 36px;
+        height: 36px; }
+        .post-content .social-block ul.social-actions svg path {
+          fill: #e95d35; }
+        .post-content .social-block ul.social-actions svg:hover path {
+          fill: #ffc55c; }
   .post-content .source-block {
     background-color: #ffffd7;
     border-color: #ffc55c;
@@ -1342,6 +1381,13 @@ ul.bibliography-filters {
 
   .post-content .sidebar {
     width: 33.3333%; }
+
+  .post-content .social-block div.left-col, .post-content .social-block div.right-col {
+    width: 100%; }
+  .post-content .social-block div.left-col div {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top; }
 
   .follow ul.contact-list {
     font-size: 1em; }
@@ -1493,6 +1539,11 @@ ul.bibliography-filters {
       display: none; }
     .post-content .sidebar.after {
       display: block; }
+
+  .post-content .social-block {
+    padding: 0 15px; }
+    .post-content .social-block div.in-page {
+      display: none; }
 
   .post-content .citation h3 {
     font-size: 1.1em;
