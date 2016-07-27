@@ -5,9 +5,20 @@
     <description>Historians recommend the books they love</description>
     <link>http://backlist.cc</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Jul 2016 06:58:45 +0200</pubDate>
-    <lastBuildDate>Tue, 26 Jul 2016 06:58:45 +0200</lastBuildDate>
+    <pubDate>Wed, 27 Jul 2016 05:57:11 +0200</pubDate>
+    <lastBuildDate>Wed, 27 Jul 2016 05:57:11 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>List: Histories of Peruvian Independence</title>
+        <description><![CDATA[
+            <p>Peru achieved its independence in 1824, later than any other mainland Spanish American colony and under the leadership of outsiders like José de San Martín and Simón Bolívar. For decades, historians attributed those facts to a repressive colonial society that had quashed dissent, despite massive rebellions from the mid-eighteenth century on. Since the 1970s, however, other historians have suggested that those rebellions—mostly Indian-led—terrified the country’s white elite, slowing independence’s arrival. The reality was more complex, in large part because of the indigenous Andeans who fought for both sides, for their own ideals of freedom and justice.</p>
+            <p><a href="http://backlist.cc/lists/histories-of-peruvian-independence">Check out the list at Backlist…</a></p>
+        ]]></description>
+        <pubDate>Wed, 27 Jul 2016 08:00:00 +0200</pubDate>
+        <link>http://backlist.cc/lists/histories-of-peruvian-independence</link>
+        <guid isPermaLink="true">http://backlist.cc/lists/histories-of-peruvian-independence</guid>
+      </item>
     
       <item>
         <title>List: Histories of Antarctica</title>
@@ -301,17 +312,6 @@
         <pubDate>Wed, 09 Dec 2015 07:00:00 +0100</pubDate>
         <link>http://backlist.cc/lists/history-of-us-cuba-relations</link>
         <guid isPermaLink="true">http://backlist.cc/lists/history-of-us-cuba-relations</guid>
-      </item>
-    
-      <item>
-        <title>List: The History of Modern India</title>
-        <description><![CDATA[
-            <p>In recent years, the kind of objective truth-telling a professional history implies has been roundly contested by those who feel that elites should not be in charge of writing the history of a large and diverse population. The popular history of India is often told quite differently, and as scholars have attempted to bridge the gap between professional and popular history, many have paid more attention to non-elite and subaltern perspectives.</p>
-            <p><a href="http://backlist.cc/lists/the-history-of-modern-india">Check out the list at Backlist…</a></p>
-        ]]></description>
-        <pubDate>Wed, 09 Dec 2015 07:00:00 +0100</pubDate>
-        <link>http://backlist.cc/lists/the-history-of-modern-india</link>
-        <guid isPermaLink="true">http://backlist.cc/lists/the-history-of-modern-india</guid>
       </item>
     
   </channel>
