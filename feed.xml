@@ -5,9 +5,20 @@
     <description>Historians recommend the books they love</description>
     <link>http://backlist.cc</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jul 2016 05:57:11 +0200</pubDate>
-    <lastBuildDate>Wed, 27 Jul 2016 05:57:11 +0200</lastBuildDate>
+    <pubDate>Wed, 03 Aug 2016 06:46:28 +0200</pubDate>
+    <lastBuildDate>Wed, 03 Aug 2016 06:46:28 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>List: The American Revolution in Unexpected Places</title>
+        <description><![CDATA[
+            <p>For most Americans, the mention of the American Revolution can easily bring to mind a slew of notable figures, events, and even regions, such as Boston and its harbor. In recent decades, historians have done much to move past more familiar understandings of the period, often focusing their studies on obscure individuals or settings, but many of these lesser-known subjects still fall within the boundaries of the thirteen British colonies that secured their independence in 1783. The books in the list move beyond the “thirteen colonies” to provide alternative vantage points that help paint a richer, more regionally complex understanding of the American Revolution.</p>
+            <p><a href="http://backlist.cc/lists/american-revolution-in-unexpected-places">Check out the list at Backlist…</a></p>
+        ]]></description>
+        <pubDate>Wed, 03 Aug 2016 08:00:00 +0200</pubDate>
+        <link>http://backlist.cc/lists/american-revolution-in-unexpected-places</link>
+        <guid isPermaLink="true">http://backlist.cc/lists/american-revolution-in-unexpected-places</guid>
+      </item>
     
       <item>
         <title>List: Histories of Peruvian Independence</title>
@@ -301,17 +312,6 @@
         <pubDate>Wed, 09 Dec 2015 07:00:00 +0100</pubDate>
         <link>http://backlist.cc/lists/graphic-histories-and-memoirs</link>
         <guid isPermaLink="true">http://backlist.cc/lists/graphic-histories-and-memoirs</guid>
-      </item>
-    
-      <item>
-        <title>List: The History of U.S.-Cuban Relations</title>
-        <description><![CDATA[
-            <p>How did the United States and Cuba—two nations separated by a mere 90 miles of water—drift so far apart? Why has a country as small as Cuba played such an outsized role in U.S. foreign and domestic politics? Why do the heroes of the Cuban Revolution, by now either long dead or spending their retirement in tracksuits, still hold such power over the American imagination?</p>
-            <p><a href="http://backlist.cc/lists/history-of-us-cuba-relations">Check out the list at Backlist…</a></p>
-        ]]></description>
-        <pubDate>Wed, 09 Dec 2015 07:00:00 +0100</pubDate>
-        <link>http://backlist.cc/lists/history-of-us-cuba-relations</link>
-        <guid isPermaLink="true">http://backlist.cc/lists/history-of-us-cuba-relations</guid>
       </item>
     
   </channel>
