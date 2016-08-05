@@ -1105,6 +1105,8 @@ ul.bibliography-filters {
       line-height: 100%;
       text-shadow: 2px 0 0 #ffffd7, 1px 0 0 #ffffd7, -1px 0 0 #ffffd7, -2px 0 0 #ffffd7;
       line-height: 100%; }
+    .post .post-content p img {
+      margin: 1em auto; }
 
 .header-drawer {
   background: #ffffc3;
