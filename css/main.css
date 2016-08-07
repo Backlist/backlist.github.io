@@ -1097,6 +1097,12 @@ ul.bibliography-filters {
         letter-spacing: .025em; }
     .post .post-content p:last-child {
       margin-bottom: 0; }
+    .post .post-content h3 {
+      font-size: 1.25em;
+      font-weight: 700;
+      letter-spacing: .025em;
+      margin-top: 3em;
+      margin-bottom: 0; }
     .post .post-content p a {
       background-image: linear-gradient(transparent 50%, #e95d35 50%);
       background-position: 0 66.6667%;
