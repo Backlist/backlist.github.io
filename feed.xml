@@ -5,9 +5,20 @@
     <description>Historians recommend the books they love</description>
     <link>http://backlist.cc</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Sep 2016 06:46:33 -0400</pubDate>
-    <lastBuildDate>Thu, 08 Sep 2016 06:46:33 -0400</lastBuildDate>
+    <pubDate>Wed, 21 Sep 2016 06:23:18 -0400</pubDate>
+    <lastBuildDate>Wed, 21 Sep 2016 06:23:18 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>List: Histories of Baseball</title>
+        <description><![CDATA[
+            <p>Histories of baseball, like military histories and writings about the U.S. founders, attract substantial popular audiences. Yet there is an abundance of well-researched, thoughtful, and exciting writing about baseball history being produced by both traditional academic scholars and writers from other backgrounds. What all these books have in common is a commitment to contextualizing the game rather than just examining what was happening on the field or in the players’ private lives.</p>
+            <p><a href="http://backlist.cc/lists/histories-of-baseball">Check out the list at Backlist…</a></p>
+        ]]></description>
+        <pubDate>Wed, 21 Sep 2016 06:00:00 -0400</pubDate>
+        <link>http://backlist.cc/lists/histories-of-baseball</link>
+        <guid isPermaLink="true">http://backlist.cc/lists/histories-of-baseball</guid>
+      </item>
     
         <item>
             <title>Outside Reading: National Parks</title>
@@ -324,17 +335,6 @@
         <pubDate>Wed, 06 Jan 2016 01:00:00 -0500</pubDate>
         <link>http://backlist.cc/lists/us-labor-history</link>
         <guid isPermaLink="true">http://backlist.cc/lists/us-labor-history</guid>
-      </item>
-    
-      <item>
-        <title>List: The History of American Childhood</title>
-        <description><![CDATA[
-            <p>Contemporary American attitudes about childhood are rife with paradox. We’re convinced that our children are overprotected, yet parents find it impossible to step back from the many protective measures put in place over the past century. Here are ten books that can help you figure out how we came to be so confused about childhood.</p>
-            <p><a href="http://backlist.cc/lists/history-of-american-childhood">Check out the list at Backlist…</a></p>
-        ]]></description>
-        <pubDate>Wed, 30 Dec 2015 01:00:00 -0500</pubDate>
-        <link>http://backlist.cc/lists/history-of-american-childhood</link>
-        <guid isPermaLink="true">http://backlist.cc/lists/history-of-american-childhood</guid>
       </item>
     
   </channel>
